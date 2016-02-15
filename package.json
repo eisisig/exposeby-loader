@@ -1,0 +1,19 @@
+{
+  "name": "expose-by-loader",
+  "version": "1.0.0",
+  "author": "Eisi Sig @eisisig",
+  "description": "expose by [name] or other for webpack",
+  "dependencies": {
+    "loader-utils": "^0.2.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eisisig/expose-by-loader.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ]
+}
