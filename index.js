@@ -10,7 +10,6 @@ module.exports.pitch = function (remainingRequest) {
 	if ( !this.query ) throw new Error("query parameter is missing");
 	this.cacheable && this.cacheable();
 	var query = loaderUtils.parseQuery(this.query);
-	console.log('query.by', query.by);
 	var name = loaderUtils.interpolateName(this, query.by || "[name]", {});
 	var results = "";
 	results += "module.exports = " + "global[" + JSON.stringify(name) + "]";

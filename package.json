@@ -1,5 +1,5 @@
 {
-  "name": "expose-by-loader",
+  "name": "exposeby-loader",
   "version": "1.0.0",
   "author": "Eisi Sig @eisisig",
   "description": "expose by [name] or other for webpack",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:eisisig/expose-by-loader.git"
+    "url": "git@github.com:eisisig/exposeby-loader.git"
   },
   "licenses": [
     {
